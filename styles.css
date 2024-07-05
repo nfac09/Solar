@@ -336,11 +336,11 @@ footer a:hover {
         margin: 5px 0;
     }
 
-    .hero {
-        background-position: center;
+.hero {
+        background-position: center center;
         background-size: cover;
-        height: auto;
-        padding: 20px;
+        height: 100vh;
+        padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -348,22 +348,27 @@ footer a:hover {
     }
 
     .hero-text {
-        width: 100%;
+        width: 90%;
         text-align: center;
         padding: 10px;
+        background: rgba(0, 0, 0, 0.5); /* Ensure text is readable */
+        border-radius: 10px;
     }
 
     .hero-text h2 {
         font-size: 1.8rem;
+        margin: 0.5rem 0;
     }
 
     .hero-text p {
         font-size: 1.2rem;
+        margin: 0.5rem 0;
     }
 
     .btn {
         font-size: 1rem;
         padding: 10px 15px;
+        margin-top: 10px;
     }
 
     .aircraft-details {
