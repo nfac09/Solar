@@ -72,14 +72,15 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .hero-text {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    max-width: 90%; /* Adjust as needed */
-    margin: auto;
+    max-width: 90%;
     text-align: center;
 }
 
@@ -339,8 +340,7 @@ footer a:hover {
     }
 
     .hero {
-        background: url('images/hero-image.jpg') no-repeat center center;
-        background-size: cover;
+        height: 60vh; /* Adjust this value as needed */
     }
 
     .hero-text h2 {
