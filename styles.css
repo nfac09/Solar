@@ -59,22 +59,29 @@ nav ul li a:hover {
     background: url('banner.png') no-repeat center center/cover;
 }
 
+/* Hero section */
 .hero {
     position: relative;
     text-align: center;
     color: white;
-    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    background: url('images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0; /* Remove padding to avoid extra space */
+    margin: 0; /* Remove margin to avoid extra space */
 }
 
 .hero-text {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Ensure text is readable */
     padding: 20px;
     border-radius: 10px;
+    max-width: 90%; /* Adjust as needed */
+    margin: auto;
+    text-align: center;
 }
 
 .hero-text h2 {
@@ -337,23 +344,7 @@ footer a:hover {
     }
 
 .hero {
-        background: url('images/hero-image.jpg') no-repeat center center;
-        background-size: cover;
         height: 100vh; /* Full viewport height */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0; /* Remove padding to avoid extra space */
-        margin: 0; /* Remove margin to avoid extra space */
-    }
-
-    .hero-text {
-        max-width: 90%; /* Reduce width to give some padding */
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.5); /* Ensure text is readable */
-        border-radius: 10px;
-        box-sizing: border-box; /* Ensure padding doesn't add to width */
-        text-align: center; /* Center align text */
     }
 
     .hero-text h2 {
