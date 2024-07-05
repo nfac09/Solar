@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Aircraft - Solar Flying Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Solar Flying Club</a></h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="aircraft.html">Our Aircraft</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="banner"></div>
+    </header>
+    <main>
+        <section class="aircraft">
+            <h2>Our Aircraft</h2>
+            <div class="aircraft-details">
+                <div class="carousel">
+                    <div class="carousel-container">
+                        <img class="carousel-slide" src="images/aircraft1.jpg" alt="Aircraft Image 1">
+                        <img class="carousel-slide" src="images/aircraft3.jpg" alt="Aircraft Image 3">
+                        <img class="carousel-slide" src="images/aircraft2.jpg" alt="Aircraft Image 2">
+                        <img class="carousel-slide" src="images/aircraft5.jpg" alt="Aircraft Image 5">
+                        <img class="carousel-slide" src="images/aircraft4.jpg" alt="Aircraft Image 4">
+                    </div>
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+                <div class="aircraft-info">
+                    <h3>N9156H</h3>
+                    <p><strong>1975 Cessna 172M Skyhawk</strong></p>
+                    <ul>
+                        <li>180HP Lycoming Engine</li>
+                        <li>Full WAAS Capable IFR Avionics</li>
+                        <li>Garmin GTN 650 GPS</li>
+                        <li>Garmin GTX 345 ADS-B "In"/"Out"</li>
+                        <li>G5 Electronic Flight Instrument</li>
+                        <li>Over 1,000 lb useful load</li>
+                        <li>48g Useable Fuel</li>
+                        <li>10,400+ TTAF, 3,800+ SMOH (Getting overhaul this fall/winter)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Solar Flying Club. All rights reserved.</p>
+        <div class="footer-created-by">
+            <p>Created by <a href="https://www.graphixiowa.net" target="_blank">Graphix Iowa</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
