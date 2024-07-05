@@ -336,19 +336,20 @@ footer a:hover {
         margin: 5px 0;
     }
 
-.hero {
+    .hero {
         background: url('images/hero-image.jpg') no-repeat center center/cover;
-        height: auto;
-        padding: 20px; /* Adjust padding for spacing */
+        background-size: cover;
+        height: 100vh; /* Full viewport height */
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
         text-align: center;
+        padding: 0; /* Remove padding to avoid extra space */
+        margin: 0; /* Remove margin to avoid extra space */
     }
 
     .hero-text {
-        width: 100%;
+        width: 90%; /* Reduce width to give some padding */
         padding: 10px;
         background: rgba(0, 0, 0, 0.5); /* Ensure text is readable */
         border-radius: 10px;
