@@ -337,12 +337,33 @@ footer a:hover {
     }
 
     .hero {
+        background-position: center;
+        background-size: cover;
         height: auto;
-        padding: 0px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .hero-text {
+        width: 100%;
+        text-align: center;
         padding: 10px;
+    }
+
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 15px;
     }
 
     .aircraft-details {
